@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+// import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./QuickView.css";
 const QuickView = () => {
-  const [item, setItem] = useState([]);
+//   const [item, setItem] = useState([]);
 
-  const { id } = useParams();
+//   const { id } = useParams();
   const navgate = useNavigate();
   const navForCross = useNavigate();
   const goToAddToCard = () => {
@@ -15,23 +15,23 @@ const QuickView = () => {
     navForCross("/backToHOme");
   };
 
-  const options = {
-    method: "GET",
+//   const options = {
+//     method: "GET",
 
-    headers: {
-      "X-RapidAPI-Key": "6cea1082dcmsh3cb126976d787bbp1f283ejsnf57e7d827fe5",
-      "X-RapidAPI-Host": "pizzaallapala.p.rapidapi.com",
-    },
-  };
+//     headers: {
+//       "X-RapidAPI-Key": "6cea1082dcmsh3cb126976d787bbp1f283ejsnf57e7d827fe5",
+//       "X-RapidAPI-Host": "pizzaallapala.p.rapidapi.com",
+//     },
+//   };
 
-  useEffect(() => {
-    fetch(`https://pizzaallapala.p.rapidapi.com/productos`, options)
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data.productos);
-        setItem(data.productos);
-      });
-  });
+//   useEffect(() => {
+//     fetch(`https://pizzaallapala.p.rapidapi.com/productos`, options)
+//       .then((res) => res.json())
+//       .then((data) => {
+//         console.log(data.productos);
+//         setItem(data.productos);
+//       });
+//   });
 
 //   const clickedItem = item.find((item) => item.id === parseInt(id));
 
