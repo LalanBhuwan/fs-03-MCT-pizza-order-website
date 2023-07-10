@@ -9,23 +9,41 @@
 .addtocard_container{
     background-image: url("https://st2.depositphotos.com/1001069/8071/i/600/depositphotos_80712882-stock-photo-italian-pizza-with-pepperoni.jpg");
     width: 80%;
-    height: 85vh;
+    height: 96vh;
     /* background-repeat: no-repeat; */
+    
    
 
 }
-
+.pding{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.br5px{
+    border-radius: 5px;
+    border-style: none;
+    height: 32px;
+}
+.ph{
+    width: 100px;
+    padding: 2px 5px;
+}
 .text_addtocard{
+    padding: 20px;
     background-color: #FFC26F;
-    text-align: center;
+   
 }
 
 .form_container{
+    
     margin: 20px;
     width:50%;
-    height: 73vh;
+    height: 80vh;
     background-color: rgb(209, 208, 208);
-    opacity: 0.4;
+    opacity: 0.8;
     color: black;
 }
 .order_now_btn > button{
@@ -37,4 +55,18 @@
     background-color: rgb(252, 14, 14);
     border-style: none;
 
+}
+
+.backtoquick_div{
+    float: right;
+    
+}
+.backtoquick_div > button{
+    border-style: none;
+    padding: 10px;
+    width: 100px;
+    margin-right: 10px ;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(129, 32, 32);
 }

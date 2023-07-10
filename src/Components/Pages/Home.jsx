@@ -13,6 +13,7 @@ import Item from "../Container/Item";
 const Home = () => {
   return (
     <div className="flx home_container">
+      
       <div className="home_lt_main_container ">
        
         <div className="logo">

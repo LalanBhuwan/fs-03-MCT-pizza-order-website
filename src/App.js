@@ -13,9 +13,13 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
         <Route path= "/menu" element = {<Menu/>}/>
-        <Route path= "/queckView" element={<QuickView/>}/>
+        <Route path= "/quickview/:id" element={<QuickView/>}/>
         <Route path= "/addtocard" element={<AddToCard/>}/>
         <Route path="/ordersccess" element={<OrderSuccess/>}/>
+        <Route path="/backToHome" element={<Home/>}/>
+        <Route path="/quick" element={<QuickView/>}/>
+        <Route path="/homes" element ={<Home/>} />
+        <Route path= "/addcard" element={<AddToCard/>}/>
       </Routes>
     </div>
   );
