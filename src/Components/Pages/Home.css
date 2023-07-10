@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flx{
+    display: flex;
+    
+}
+
+.home_lt_main_container{
+    width: 17%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.logo{
+    height: 15%;
+}
+
+.flx_dir_cl{
+    flex-direction: column;
+}
+
+.home_menu {
+    color: black;
+    height: 60%;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.font_icons{
+    height: 12%;
+   
+    padding-top: 60px;
+    gap: 8px;
+    justify-content: center;
+}
+.home_menu_btn{
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+   
+}
+.home_menu_btn button{
+    border-style: none;
+    background-color: red;
+    height: 40px;
+    width: 100%;
+    margin: 20px 0 0 25px;
+    
+    color: white;
+    
+}
+
+.home_rt_main_container{
+    overflow-y: scroll;
+   
+    width: 83%;
+    height: 100vh;
+    
+}
+
+.bg_green{
+    position: relative;
+    background-color: rgb(24, 87, 24);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.rt_home_text{
+    margin-left: 40px;
+    color:white;
+    padding: 10px;
+}
+.yes{
+    font-size: 25px;
+    margin-right: 15px;
+    
+}
+.check_zone_btn{
+    border-style: none;
+    background-color: rgb(24, 87, 24);
+    color: white;
+    
+}
+.mg_10px{
+    margin-top: 20px;
+
+}
+
+.home_image{
+    position: relative;
+}
+
+.best_offer_div{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    background-color: #F29727;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    left: 110px;
+    top: 55px;
+}
+.scroll_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    color: red;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    top: 95.4vh;
+    border-radius: 50% 50% 0 0;
+    font-size: 12px;
+
+}
+

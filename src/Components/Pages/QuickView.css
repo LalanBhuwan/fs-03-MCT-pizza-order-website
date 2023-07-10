@@ -1,0 +1,70 @@
+.main_container{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.quick_container{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.quick_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(232, 229, 227);
+    
+}
+.quick_img img{
+    width: 350px;
+    height: 300px;
+}
+
+.quick_text{
+    
+    width: 50%;
+    margin-left: 20px;
+}
+.quick_text  h6, h4, p{
+    margin-top: 10px;
+}
+
+.quick_comp_btn{
+    color: white;
+    margin-top: 20px;
+    border-style: none;
+    background-color: red;
+    padding: 10px 20px;
+
+}
+
+.nutritional_value{
+    margin-top: 20px;
+}
+
+.nutritional_value > h6{
+    color: rgb(252, 214, 1);
+}
+.nutritional_value > p > span{
+    color: red;
+}
+
+.colaNdmealRate > p > span{
+    margin-left: 45px;
+}
+.colaNdmealRate p{
+    color: rgb(252, 214, 1);
+}
+
+.colaNdmealRate > p > span ~ span{
+    color: red;
+}
+

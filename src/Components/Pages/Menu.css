@@ -1,0 +1,100 @@
+
+
+.deco_none{
+    text-decoration: none;
+}
+.clr{
+    color: rgb(240, 180, 69);
+    font-size: 10px;
+}
+.flx{
+    display: flex;
+}
+
+.nav_bar{
+    height: 30px;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    
+}
+.nav_bar1{
+    gap: 20px;
+    margin-left: 20px;
+}
+.nav_bar2{
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.header_container{
+    height: 60px;
+    padding: 10px;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+.lt_side_container{
+    margin-left: 20px;
+}
+
+.rt_side_container{
+    margin-right: 20px;
+    align-items: center;
+    
+    gap: 20px;
+    position: relative;
+}
+.rt_side_container>button{
+    border-style: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px ;
+}
+.fs{
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+}
+.home_menus{
+    margin-left: 5px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.addcount{
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    top: 5px;
+    left: -4px;
+    font-size: 10px;
+    color: white;
+}
+
+.menu_light{
+   
+    background-color: red;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.near > p{
+    font-size: 13px;
+
+}
+.near{
+    margin-top: 22px;
+}
+.near > h1{
+    position: relative;
+    top: -2px;
+   
+}

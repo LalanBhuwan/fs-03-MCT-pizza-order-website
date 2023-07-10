@@ -1,0 +1,40 @@
+
+.addtocard_main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.addtocard_container{
+    background-image: url("https://st2.depositphotos.com/1001069/8071/i/600/depositphotos_80712882-stock-photo-italian-pizza-with-pepperoni.jpg");
+    width: 80%;
+    height: 85vh;
+    /* background-repeat: no-repeat; */
+   
+
+}
+
+.text_addtocard{
+    background-color: #FFC26F;
+    text-align: center;
+}
+
+.form_container{
+    margin: 20px;
+    width:50%;
+    height: 73vh;
+    background-color: rgb(209, 208, 208);
+    opacity: 0.4;
+    color: black;
+}
+.order_now_btn > button{
+    width: 50%;
+    margin-left: 20px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(252, 14, 14);
+    border-style: none;
+
+}
